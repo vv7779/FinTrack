@@ -5,7 +5,7 @@
 ## Features
 
 - Add and track daily expenses
-- Categorize spending (e.g., Food, Travel, Shopping)
+- Categorize spending (e.g., Salary, Business, Investment, Loan, Other)
 - View expense history
 - Set and monitor monthly budgets
 - Simple and clean user interface
