@@ -2,9 +2,15 @@ plugins {
     alias(libs.plugins.android.application)
 }
 
+apply plugin: "realm-android"
+
 android {
     namespace 'com.example.fintrack'
     compileSdk 35
+
+    buildFeatures{
+        viewBinding true
+    }
 
     defaultConfig {
         applicationId "com.example.fintrack"
@@ -37,4 +43,6 @@ dependencies {
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
+    implementation 'com.github.AnyChart:AnyChart-Android:1.1.5'
+
 }
