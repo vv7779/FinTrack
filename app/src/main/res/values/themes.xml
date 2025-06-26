@@ -2,12 +2,14 @@
     <!-- Base application theme. -->
     <style name = "Base.Theme.FinTrack" parent = "Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-         <item name="colorPrimary">@color/orange</item>
+         <item name="colorPrimary">@color/appColor</item>
     </style>
 
     <style name = "Theme.FinTrack" parent = "Base.Theme.FinTrack" />
 
     <style name = "App.CustomIndicator" parent = "Widget.Material3.BottomNavigationView.ActiveIndicator" >
-        <item name="android:color">@color/lightOrange</item>
+        <item name="android:color">@color/rippleColor</item>
     </style>
+
+
 </resources>
